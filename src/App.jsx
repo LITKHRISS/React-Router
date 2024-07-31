@@ -16,7 +16,7 @@ function AboutPage () {
     <>
     <h1>About</h1>
     <div>
-      <img src='src/resourses/Screenshot 2024-07-30 204029.png' alt='Foto de Christopher' />
+      <img src='src/resourses/IMG_6611.jpeg' alt='Foto de Christopher' />
     <p>Hola soy Christopher y estoy creando un clon de React Router</p>
     </div>
 
