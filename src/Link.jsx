@@ -5,3 +5,11 @@ export function navigate (href) {
     const navigationEvent = new Event(EVENTS.PUSHSTATE)
     window.dispatchEvent(navigationEvent)
   }
+
+  export function Link ({ target, to, ...props }) {
+    const handleClick = () => {
+        navigate(to)
+    }
+
+    return <a onClick={handleClick} href={to} target={target} {...props} />
+  }
