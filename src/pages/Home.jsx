@@ -4,8 +4,8 @@ export default function HomePage () {
     return (
       <>
       <h1>Home</h1>
-      <p>Pagina de ejemplo para crear un React Router desde cero</p>
-      <Link to='/about'> Ir a sobre nosotros </Link>
+      <p>Creating a web page with React Router from zero </p>
+      <Link to='/about'> About us </Link>
       </>
     )
   }

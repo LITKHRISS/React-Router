@@ -5,7 +5,7 @@ export default function Page404 () {
         <>
             <div>
             <h1>This is NOT fine (404)</h1>
-            <img src='src/resourses/this-is-fine.webp' alt='Gif del perro This is not fine'/>
+            <img src='src/resourses/this-is-fine.webp' alt='This is not fine'/>
             </div>
            
             <Link to='/'> Go to home </Link>

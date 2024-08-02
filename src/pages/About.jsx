@@ -6,10 +6,10 @@ export default function AboutPage () {
       <h1>About</h1>
       <div>
         <img src='src/resourses/IMG_6611.jpeg' alt='Foto de Christopher' />
-      <p>Hola soy Christopher y estoy creando un clon de React Router</p>
+      <p>Hello, my name is Christopher Mordan</p>
       </div>
   
-      < Link to='/'> Ir a home </Link>
+      < Link to='/'>Go to Home </Link>
       </>
     )
   }
