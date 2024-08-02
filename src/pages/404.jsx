@@ -1,4 +1,4 @@
-import { Link } from "./Link.jsx"
+import { Link } from "../Link.jsx"
 
 export default function Page404 () {
     return (

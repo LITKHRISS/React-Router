@@ -3,7 +3,7 @@ import HomePage from './pages/Home.jsx'
 import AboutPage from './pages/About.jsx'
 
 import { Router } from './Router.jsx'
-import Page404 from './404.jsx'
+import Page404 from './pages/404.jsx'
 
 const appRoutes = [
   {
@@ -13,6 +13,10 @@ const appRoutes = [
   {
     path: '/about',
     Component: AboutPage
+  },
+  {
+    path: '/search/:query', // /search/javascript /search/python /search/react
+    Component: ({routeParams}) => <h1>Has buscado {routeParams.query}</h1>
   }
 ]
 
